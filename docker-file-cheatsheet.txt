@@ -1,0 +1,9 @@
+FROM image:version - Base image
+
+WORKDIR /FileName  - File in container
+
+COPY ./Location . - Copy file from code into container
+
+RUN command - Runs a linux command on container
+
+ENTRYPOINT [ ] - Command that is run when container starts
